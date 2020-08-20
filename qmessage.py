@@ -11,8 +11,6 @@ from stackoverflow import post_question, find_similar
 from twilio.rest import Client
 
 '''
-Twilio:j
-+18723954993
 Heroku DB Example:
 https://github.com/sahildiwan/flask-postgres-heroku/blob/master/app.py
 '''
@@ -20,7 +18,7 @@ https://github.com/sahildiwan/flask-postgres-heroku/blob/master/app.py
 app = Flask(__name__)
 
 
-TWILIO = '+12512208106'
+TWILIO = '' ### redacted
 MAX_SIZE = 1550
 PHONES = {}
 
