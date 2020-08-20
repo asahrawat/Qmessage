@@ -1,0 +1,30 @@
+1221 tags
+SITE: math, 5420 training values, 491 testing values
+OVERLAPS --> min: 0.0, max: 1.0, mean: 0.359470468432, at-least-1: 0.61099796334
+
+
+457 tags
+SITE: politics, 1694 training values, 201 testing values
+OVERLAPS --> min: 0.0, max: 1.0, mean: 0.53399668325, at-least-1: 0.820895522388
+
+
+546 tags
+SITE: biology, 2711 training values, 280 testing values
+OVERLAPS --> min: 0.0, max: 1.0, mean: 0.305357142857, at-least-1: 0.5
+
+
+594 tags
+SITE: cooking, 1911 training values, 215 testing values
+OVERLAPS --> min: 0.0, max: 1.0, mean: 0.417054263566, at-least-1: 0.646511627907
+
+
+583 tags
+SITE: history, 1568 training values, 133 testing values
+OVERLAPS --> min: 0.0, max: 1.0, mean: 0.298245614035, at-least-1: 0.511278195489
+
+
+504 tags
+SITE: cs, 4635 training values, 489 testing values
+OVERLAPS --> min: 0.0, max: 1.0, mean: 0.479550102249, at-least-1: 0.736196319018
+
+--- t = 71.0495171547 seconds ---
