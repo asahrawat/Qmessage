@@ -5,10 +5,13 @@ from twilio.twiml.messaging_response import Message, MessagingResponse
 import time
 import threading
 from user import User
+import time
+import requests
 from stackoverflow import post_question, find_similar
+from twilio.rest import Client
 
 '''
-Twilio:
+Twilio:j
 +18723954993
 Heroku DB Example:
 https://github.com/sahildiwan/flask-postgres-heroku/blob/master/app.py
@@ -16,126 +19,109 @@ https://github.com/sahildiwan/flask-postgres-heroku/blob/master/app.py
 
 app = Flask(__name__)
 
-TWILIO = ''
 
+TWILIO = '+12512208106'
+MAX_SIZE = 1550
 PHONES = {}
-APP_KEY = ''
-ACCESS_TOKEN = ''
-#SITE = StackAPI('stackapps', key=APP_KEY, access_token=ACCESS_TOKEN)
+
+threadStarted = False
+
+def wakeup_dyno():
+	while True:
+		r = requests.get(url = 'https://qmessage.herokuapp.com')
+		print('waking up {}'.format(r)) 
+		time.sleep(25*60)
+
+@app.route('/', methods=['GET'])
+def hello():
+	message = '<p>Welcome to Qmessage, the messaging service where you can have your questions answered by real people!</p><p>Due to Free-Trial constraints, we have to add your number to our Twilio account before using the service, so, if you would like to use Qmessage, please ask Jorge (+14014404869) to add your number. If your number has already been added, then welcome back!</p><p>To use Qmessage, simply text anything to {}, and follow the instructions from there.</p>'.format(TWILIO)
+	return message
 
 @app.route('/sms', methods=['POST', 'GET'])
 def sms():
-	print 'GOT YOU'
+	global threadStarted
+
+	if not threadStarted:
+		t = threading.Thread(target = thread_target)
+		t.start()
+		t1 = threading.Thread(target = wakeup_dyno)
+		t1.start()
+		threadStarted = True
+
+
 	phone = request.form['From']
 
 	if phone not in PHONES.keys():
-		print "\nNew User: {}\n\n".format(phone)
+		print("\nNew User: {}\n\n".format(phone))
 		u = User(phone, TWILIO)
 		PHONES[phone] = u
 	else:
-		print "\nOld User: {}\n\n".format(phone)
 		u = PHONES[phone]
 
 	response = u.process_message(request.form['Body'])
-		
-	resp = MessagingResponse()
-	resp.message(response)
-	return str(resp)
+	u.previousMessage = response
+	response = '.\n{}'.format(response)
+	x = 0
+	if len(response) > MAX_SIZE:
+		r = response[MAX_SIZE]
+		num = int(len(response) / MAX_SIZE) + 1
+		for i in range(1, num):
+			r = response[:MAX_SIZE]
+			break_idx = r.rfind(' ') + 1
+			if break_idx == 0: break_idx = MAX_SIZE
+			r = response[:break_idx]
+			response = response[break_idx:]
+			send_message('({}/{})\n{}'.format(i, num, r), phone)
+			x = i
+
+		send_message('({}/{})\n{}'.format(x+1, num, response), phone)
+
+	else: 
+		resp = MessagingResponse()
+		resp.message(response)
+		return str(resp)
+
 
 
 def thread_target():
 	latest_post = 0
 	while True:
-		print '...\n'
 		for user in PHONES.values():
 			user.process_unanswered()
-			user.process_queue(latest_post)
 			latest_post = max(latest_post, user.latestPostTime)
+			user.process_queue(latest_post)
 
-		time.sleep(5)
+		time.sleep(10)
+
+
+def send_message(body, receiver):
+		
+		print('sending bytes from {} to {}'.format(TWILIO, receiver))
+		account_sid = '' ### redacted
+		auth_token = '' ### redacted
+		
+		client = Client(account_sid, auth_token)
+		message = client.messages.create(
+			body=body,
+			from_=TWILIO,
+			to=receiver
+			)	
 
 
 if __name__ == '__main__':
-
-	t = threading.Thread(target = thread_target)
-	t.start()
-	#app.debug = False
+	
+	app.debug = False
 	app.run()
-
-	
-
-	
 	
 	'''
-
+	u = User('+14014404869')
+	PHONES['401'] = u
 	while True:
-		print '{}\n'.format('-'*40)
-		c = raw_input('command:')
-		if c == 'queue':
-			u.process_queue(u.latestPostTime)
-		elif c == 'unanswered':
-			u.process_unanswered()
-		else:
-			response = u.process_message(c)
-			print 'Response:\n{}'.format(response)
-
-
-	while True:
-		print '{}\n'.format('-'*40)
-		message = raw_input('Your message:\n')
+		print('{}\n'.format('-'*40))
+		message = input('---------\nYour message:\n')
 		response = u.process_message(message)
-		print 'Response:\n{}'.format(response)
+		u.previousMessage = response
+		print('--------------\nResponse:\n{}\n-----------'.format(response))
+	'''
+
 	
-
-
-	accounts = ['math', 'politics', 'biology', 'cooking', 'history', 'stackapps']
-	accounts = ['math']
-	while True:
-		print '{}\n'.format('-'*40)
-		m = raw_input('Method (post or get):\n')
-		if m == 'post':
-			s = 'math'
-			t = 'how do you solve a system of equations?'
-			b = 'I have 2 formulas: y = x + 2 and x = 87. How do I find y?'
-			ts = ['system of equations', 'unknown variables']
-			#resp = post_question(s, t, b, ts)
-			resp = find_similar(s, t, b, ts)
-			print json.dumps(resp)
-	'''
-	
-
-
-	#app.run()
-
-
-
-
-	'''
-	title = 'title'
-	body = 'body'
-	phoneNumber = 4014404869
-	post_question('', '', phoneNumber)
-
-	for i in range(3):
-		x = pull_questions()
-		print json.dumps(x)
-		print '-----\n\n'
-		time.sleep(2)
-	'''
-
-#response = SITE.send_data('questions/add', 
-#	title='PLACEHOLDER - Finding population mean from sample statistics', 
-#	body='I know that I can use a Z statistic or t-statistic, but I do not know how to do it if I am only given a sample mean. (Testing app)', 
-#	tags='placeholder;app')
-
-
-#print(response)
-#print(comments)
-
-#flag = SITE.send_data('comments/123/flags/add', option_id=option_id)
-#print(flag)
-
-#https://api.stackexchange.com/2.2/users/%7B%7D/1;6;3;1;8/ ?pagesize=100&page=1&filter=default&key=BAqwhDKJbi%29Ifjom2U%29VHQ%28%28&access_token=h3mAKlNtnfd%28RQY8UUbUDg%29%29&site=cooking
-
-
-#https://api.stackexchange.com/2.2/users%2F%7B%5B16318%5D%7D?pagesize=100&page=1&filter=default&key=BAqwhDKJbi%29Ifjom2U%29VHQ%28%28&access_token=h3mAKlNtnfd%28RQY8UUbUDg%29%29&site=cooking
