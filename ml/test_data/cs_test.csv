@@ -1,0 +1,490 @@
+,qId,title,tags
+0,103239,Merge sort and quicksort recursion tree depth,"algorithms,recursion,quicksort,mergesort"
+1,103640,Sort 2D arrays so that cost of reaching new position as described at each iteration is minimized,"sorting,arrays"
+2,102834,What is happening during &quot;table walk&quot;?,computer-architecture
+3,102501,Smallest Circuit for Square of Sparse Symmetric Matrix,"complexity-theory,circuits,linear-algebra,multiplication,sparse-matrices"
+4,102282,Batch sizing for convolution neural networks -- powers of 2 or powers of primes?,"algorithms,machine-learning"
+5,103658,Product of Lexical Specification,regular-expressions
+6,103542,Calculate number of cache lines per set or cache size,"cpu-cache,caching"
+7,103330,Does left factoring CFG make it unambiguous?,"formal-languages,automata,context-free,formal-grammars,pushdown-automata"
+8,102395,What should be the minimum value when the two threads are executed concurrently,"operating-systems,parallel-computing,threads,mutual-exclusion"
+9,102999,Split a list of elements into sub lists  each with different criteria,"algorithms,randomized-algorithms"
+10,102864,What is a genuine atomic multicast?,"algorithms,distributed-systems"
+11,102766,Is There An Established Way To Send Code Over a Network?,distributed-systems
+12,102577,Formal definition of an empty stack accepting PDA,pushdown-automata
+13,102589,Is the statement &quot;Control unit controls overall operations of computer.&quot; true or false,computer-architecture
+14,102517,SLR(1) Table construction  FIRST and FOLLOWS,"context-free,parsers"
+15,102389,Generation of all combinations of a set in max-differing/random order,"algorithms,combinatorics"
+16,102327,Given n drinks  find optimum way to spend money if for each drink the price and the expiration date is given,greedy-algorithms
+17,102973,Floating point precision from rearranging equation,floating-point
+18,102679,Give a Context Free Language  is the complement of this language always recursive(REC)?,"turing-machines,context-free"
+19,103372,Seeking nontrivial small SAT/UNSAT instances,satisfiability
+20,102566,Number of MUX required for Cache Mapping,"computer-architecture,cpu-cache"
+21,103622,set cover to edge cover,"graphs,approximation,set-cover,vertex-cover"
+22,102807,When average   worst and best case time complexity happens in quick sort?,"sorting,quicksort"
+23,103596,Single Layer Perceptron vs Multi Layer Perceptron,"machine-learning,neural-networks,perceptron,neural-computing"
+24,103444,Is there a name for this priority queue data structure?,"data-structures,terminology,heaps,priority-queues"
+25,103672,How can I find the Myhill-Nerode classes for the language A?,"regular-languages,finite-automata"
+26,103504,Variant of the &quot;Stable Roommates Problem&quot; when room has not 2 but &quot;n&quot; mates,"algorithms,sets,clustering"
+27,103493,efficiently find connected components in undirected graph considering transitive equivalence,"algorithms,graphs"
+28,103221,How to choose a word to apply the Pumping Lemma?,"formal-languages,regular-languages,pumping-lemma"
+29,102998,Proving NP hardness about graph creation problem with triangle number,"graphs,np-complete,np-hard,np,constraint-satisfaction"
+30,102382,Why in Flow network  there is no reversed edges?,"algorithms,network-flow"
+31,102279,The Law of Excluded Miracle in the language of guarded commands,"nondeterminism,semantics,formal-methods,hoare-logic"
+32,103112,How does one know what statements in Coq require Induction?,"induction,coq"
+33,102238,Convert FOL clauses to PROLOG,"first-order-logic,prolog"
+34,102408,Is there a useful algorithm with a decreasing asymptotic time?,"algorithms,complexity-theory,runtime-analysis"
+35,103663,Checking the validity of a pyramid of dominoes,"algorithms,data-structures,backtracking"
+36,102839,Can the pseudo-random-sequence generator be described as a finite state automaton?,"finite-automata,pseudo-random-generators"
+37,102542,IEEE754 representation in hexadecimal?,"floating-point,number-formats"
+39,102979,Is TSP a more detailed form of the &quot;Set Inclusion&quot; question?,"algorithms,complexity-theory,graphs,time-complexity,traveling-salesman"
+40,103544,Looking for algorithm to iterate over matrix,"algorithms,performance,matrix"
+41,102949,Time complexity of Dijkstra&#39;s algorithm for sparse graph,"algorithms,runtime-analysis,shortest-path"
+42,102296,The definition of weakest precondition for a non-deterministic language,"reference-request,nondeterminism,semantics,formal-methods"
+43,103375,DFA - unsigned int with digits in non-decreasing order,finite-automata
+44,103123,How to decide which bytes will form a packet ?(computer networks),"computer-networks,communication-protocols,protocols"
+45,103198,Is there an FPRAS for the number of min st cuts in general graphs?,"complexity-theory,approximation,counting,minimum-cuts"
+46,103097,Intersection of two shortest paths in connected weighted graph,"graphs,shortest-path"
+47,102889,What&#39;s the worst case complexity of Robert W. Floyd&#39;s cycle detection algorithm?,time-complexity
+48,103077,Is there any relationship between grammar being ambiguous and the language itself?,"formal-grammars,ambiguity"
+49,102815,Are all instructions eventually converted to zero-operand instructions?,computer-architecture
+50,103008,Proof of QuickSort algorithm correctness,"algorithms,sorting,correctness-proof,induction,quicksort"
+51,102859,How broad is the meaning of &quot;algorithm&quot;?,"algorithms,terminology,neural-networks"
+52,102898,Expectation of $u&#39;^t v$ = $u^t v$,"reductions,probability-theory,matrix"
+53,102873,Algorithm for closest available resource,algorithms
+54,102867,calculation of Transitive Closure,"algorithms,graphs"
+55,102860,Does the Paxos algorithm use failure detectors?,"algorithms,distributed-systems"
+56,102987,Return copy of array  each element product of all others  constant additional space  no division,"algorithms,algorithm-analysis,time-complexity,space-complexity"
+57,103634,PDA for the language of strings containing the same number of a and b,pushdown-automata
+58,102765,Removing max number of edges while keeping minimum distances,"algorithms,graphs"
+59,103414,Polynomial time algorithms for rank 1 elliptic curves over Q,"algorithms,time-complexity,discrete-mathematics"
+60,102731,additive hash function,"reference-request,hashing"
+61,102659,Quick and space-efficient way to find whether two sets intersect,"graphs,time-complexity,space-complexity,graph-traversal,bloom-filters"
+62,103680,What does all uppercase letters mean?,lambda-calculus
+63,102442,Finding infeasible sets of constraints (CSP),constraint-programming
+64,102793,Relaxations for MILP with logical constraints,"approximation,linear-programming,integer-programming"
+65,102849,Alternatives to directly connected networks for representing frequently-updated graphs,graphs
+66,102593,Does NTIME($n^\alpha$) $\subset$ EXPTIME imply NP $\subset$ EXPTIME?,"time-complexity,np"
+67,102988,Tailrecursive definition for a function,"lambda-calculus,functional-programming"
+68,103440,Efficient data structure handling insert(number) and find(sum) returning pair a b such that a + b = sum,"algorithms,data-structures,efficiency"
+69,103442,Grammar of words with exactly $k$ prefixes in another grammar,"formal-languages,context-free,pushdown-automata,strings,substrings"
+70,103100,Probability of a double cycle in cuckoo graph,"data-structures,probability-theory,probabilistic-algorithms"
+71,103604,Formal language representation of program,"formal-languages,formal-methods"
+72,103568,Provide &quot;regular&quot; grammar for this language {${a^ib^j \mid i&gt;0\ and \hspace{2.5mm}i\leq j \leq(2*i)}$},"formal-languages,formal-grammars"
+73,102302,Algorithm for generate all solutions to a linear Diophantine equation,"recursion,number-theory"
+74,103695,Unbiased random number generator,random-number-generator
+75,103610,Optimal partitioning of n-tuples,"graphs,optimization,heuristics,partitions"
+76,102257,Algorithm to explore every node in a graph,"algorithms,graphs"
+77,103661,Can Pareto Optimality be compared to Nash Equilibrium?,"proof-techniques,game-theory"
+78,103654,How are words assigned in machine language?,"computer-architecture,cpu"
+79,103675,Is this counting language context free?,"formal-languages,context-free"
+80,103684,Run-time of Hungarian algorithm - matrix formulation,"optimization,runtime-analysis,matching"
+81,103694,Algorithm to determine paths that define shape of connected rectangles,"computational-geometry,computer-vision"
+82,102243,How to generate an instance for an NP_hard proof  where each element has two inputs?,"complexity-theory,proof-techniques,np-hard,scheduling,partitions"
+83,103641,What would be the big-o time complexity of this scenario?,"algorithm-analysis,runtime-analysis,loops"
+84,103686,Determine if there exists a line that intersects all horizontal segments. Better than $O(n^2 \lg n)$?,"algorithms,computational-geometry"
+85,102250,Which flow algorithm on a graph is used when the capacity is a rational number?,ford-fulkerson
+86,103681,Maximizing cache utilization when scheduling a computation graph,"algorithms,graphs,compilers"
+87,103633,Why is LTL Model Checking in PSPACE,"complexity-theory,linear-temporal-logic"
+88,103647,Text Segmentation Problem give Word Frequencies in a Universe,"algorithms,dynamic-programming,natural-language-processing"
+89,103677,Closest Value instead of Max Value in Knapsack problem,"algorithms,optimization,knapsack-problems"
+90,103662,Minimal edge cover of the hypergraph,"graphs,approximation,matching,set-cover"
+91,103603,Topological sorting colored tree,"graphs,sorting"
+92,103648,Prove Halting on all Inputs is not in RE simulation,"turing-machines,computability,proof-techniques,semi-decidability,simulation"
+93,103618,If graph isomorphism is in P  is then P = NP?,"complexity-theory,np-complete,p-vs-np,graph-isomorphism"
+95,103645,Djikstra algorithm analysis,"graphs,algorithm-analysis,runtime-analysis,shortest-path"
+96,103656,Proof that G is a Tree After DFS and BFS form the same tree T,"algorithms,graphs,proof-techniques,correctness-proof,check-my-answer"
+97,103591,How does negation as failure work with variables?,"algorithms,prolog,logic-programming"
+98,103650,Crossover topologically identical neural networks,"neural-networks,genetic-algorithms"
+99,103638,Why is this not recognized by a DFA?,"finite-automata,regular-expressions"
+100,103628,Proving a LL(1) equivalent grammar doesn&#39;t exist,formal-languages
+102,103611,Reduction between these two languages,"turing-machines,computability,reductions"
+103,103602,Prove that a sequence of increasing find operations on a splay tree takes $\mathcal{O}(n)$ time,"data-structures,splay-trees"
+105,103625,findining the smallest sum of squared lengths of the intervals I_{k},"algorithms,dynamic-programming,greedy-algorithms"
+106,103500,Can one get Turing-completeness without nontermination?,"computability,turing-completeness,agda"
+107,103621,Two Process Solution for Critical Section Problem- Algorithm 1,"operating-systems,process-scheduling,synchronization,critical-section"
+108,103614,Can a non-RE language be reduced to an RE language?,"turing-machines,computability,reductions"
+109,103615,Converting a cyclic digraph to an approximated tree,"graphs,trees,network-analysis"
+110,103613,metrics for evaluating the performance of a load balancing algorithm,algorithm-analysis
+111,103609,State of the art of parser handling of offset errors,"algorithms,reference-request,parsers"
+112,103605,Myhill-Nerode equivalence classes of $\{1^n0^n\}$,"formal-languages,regular-languages"
+113,103569,Prove that the following algorithm has STOP property (number of steps is finite),"algorithms,algorithm-analysis,correctness-proof"
+115,103595,minimum cardinality maximal matching of graph,"algorithms,graphs,approximation,matching,bipartite-matching"
+116,103517,Is summing a function over all subsets in PP?,"algorithms,complexity-theory,decision-problem"
+117,103559,Is there an algorithm to find the minimal number of dimensions  given the distances between points?,"algorithms,graphs,computational-geometry"
+118,103561,How to build a finite automaton for right quotient of a regular language?,"formal-languages,automata,regular-languages,finite-automata"
+119,103555,Why proving that two languages used to merge into a regular language are not necessarily regular isn&#39;t possible with closure properties?,"formal-languages,regular-languages,closure-properties"
+120,103583,Large-scale string clustering,"algorithms,algorithm-analysis,strings,clustering,big-data"
+121,103532,Algorithm : Visiting all stations in minimum time with additional constraints,"algorithms,graphs,dynamic-programming"
+122,103549,Q: Calculating a MPI cluster throughtput from hardware latencies,linear-bounded-automata
+123,103522,Calculating maximum number of splits that can occur during insertion of $n$ keys in B Tree of order $m$,"graphs,trees,search-trees,b-tree"
+124,103576,Convert polynomial generator to binary form for crc,"polynomials,binary,crc"
+125,103516,Constructing a PDA with an unequal number of a/b,"formal-languages,pushdown-automata"
+126,103573,Are TLB entries sorted by Virtual Address?,paging
+127,103567,Poly-time reductions for proving EXPTIME-hardness are _not_ enough?,"complexity-theory,time-complexity,reductions"
+128,103558,Find the computational complexity of the given program,"algorithm-analysis,recurrence-relation"
+130,103508,What is the depth of recursion if we split an array into $\log_2(n)$ with each recursive call?,"complexity-theory,time-complexity,asymptotics,recursion,mathematical-analysis"
+131,103556,Superposition calculus: greater vs greater-or-equal,"logic,first-order-logic,automated-theorem-proving"
+132,103530,Search on Conformant Problem: solution for subset of a belief state,"artificial-intelligence,search-trees,search-problem"
+133,103548,Running Time of Sorting Algorithm,"algorithms,algorithm-analysis,time-complexity,asymptotics,runtime-analysis"
+134,103529,Proving $A^\ast = A$ on a given set,"sets,kleene-star"
+135,103534,Partitioning vertices in a bipartite graph according to minimum vertex covers,"algorithms,graphs,bipartite-graph,vertex-cover"
+136,103531,Computing number of ways to make change,"time-complexity,dynamic-programming,recurrence-relation"
+137,103533,Sorting elements of linked list,"algorithms,linked-lists"
+138,103453,Given a constant k  find the biggest possible rooted tree  if for every path from root to leaf  the sum of the arity of its nodes equals k?,"trees,combinatorics"
+139,103539,Searching Algorithm on Connected Graph,"algorithms,graphs,trees,search-algorithms"
+140,103538,Number of look aheads in $LR(1)$ items?,compilers
+141,103514,Origin of a story about a computer in the 50&#39;s recommending offing Pensioners,history
+142,103439,Are all countable partial functions computable?,computability
+143,103523,Binary Tree Multithreaded Time Complexity,"time-complexity,binary-trees,parallel-computing"
+144,103524,Finding subgraph in multigraph using deeplearning,"graphs,neural-networks"
+145,103502,How to prove that $\{\$x\$\}$ is a regular language if $x$ is derived from $L=\{w\}$ by substituting substrings?,"formal-languages,regular-languages,regular-expressions"
+146,103520,Huffman Coding vs Arithmetic Coding,"information-theory,hamming-code"
+147,103476,Is there a systematic way to know when to alpha-transform free variables?,"lambda-calculus,variable-binding,church-numerals"
+148,103511,The computational cost of the adjacency-based Euclidean distance matrix,"algorithms,graphs,time-complexity"
+149,103489,Are the following Big Oh Notations equivalent?,"asymptotics,landau-notation,upper-bound"
+150,103507,Maximum subset of connected edges,"algorithms,graphs"
+151,103462,Computing $A^{-2}BA^{-3}b$,"numerical-analysis,matrix"
+152,103494,Better implementation to find the root of an element in QuickUnion implementation of UnionFind problem,"algorithms,algorithm-analysis,space-complexity,union-find"
+153,103485,$f(n) = o(n^c) \rightarrow \exists \epsilon &gt; 0 \ s.t. f(n) = O(n^{c-\epsilon})$,"asymptotics,master-theorem"
+154,103467,Complexity of Estrin polynomial evaluation,algorithm-analysis
+155,103497,Calculating the average waiting time of tasks,algorithm-analysis
+156,103490,address spaces of changing processes,"operating-systems,virtual-memory"
+157,103492,Dynamic perfect hashing  FKS Scheme,"trees,hash-tables"
+158,103349,Performance of Modified Dijkstra&#39;s algorithm with Binariy heap as Priority Queue,"algorithms,graphs,algorithm-analysis,asymptotics,performance"
+159,103488,How to prove that if $L  G$ are regular languages then $\{w\in L|\exists x\in G: |x|=2\cdot |w|\}$ is a context-free language?,"formal-languages,regular-languages,context-free,pushdown-automata"
+160,103457,Iterative Fibonacci algorithm correctness proof  finding loop invariants,"algorithms,correctness-proof,induction,loop-invariants"
+161,103473,If a deterministic finite automaton recognizes a language  must that language contain every accepting input?,"automata,finite-automata"
+162,103487,Modifying BFS to Find the least transfer stop as possible,"algorithms,complexity-theory,graphs,algorithm-analysis"
+163,103483,Does keeping underflowed nodes unbalance the R-tree?,"trees,balanced-search-trees"
+164,103477,Church numerals without functions,"lambda-calculus,church-numerals"
+165,102944,Merging two splay trees whose ranges may overlap in $O(\log N)$,splay-trees
+166,103446,Running Time for Finding Maximum,"algorithms,algorithm-analysis,time-complexity,asymptotics,runtime-analysis"
+167,103454,What does it mean &quot; The outer level page table need not be page aligned?,"operating-systems,virtual-memory,paging"
+168,103449,How many neurons is needed for UAT to hold?,neural-networks
+169,103352,Longest-path in a graph  where the path should be &#39;straight&#39;,"algorithms,graphs,computational-geometry,approximation"
+170,103456,Mathematical Problem Solving,"algorithms,computability"
+171,103420,How to calculate time complexity of a randomized search algorithm?,"algorithms,time-complexity,asymptotics,search-algorithms"
+172,103441,transmit delay end to end,computer-networks
+173,103433,When to free physical registers,computer-architecture
+174,103435,When does total unimodularity implies integrality of solutions?,linear-programming
+175,103371,Number of min-cuts of a graph,"graphs,algorithm-analysis"
+176,103402,Algorithm to find the two closest elements in a BST,"algorithms,complexity-theory,trees,binary-trees"
+177,103157,Finding a subset with few neighbors,"algorithms,graphs,bipartite-matching"
+178,103413,How to show that this decision problem is in co-NP?,"complexity-theory,np,co-np"
+179,103431,Single queue instruction issuing in computer architecture,computer-architecture
+180,103401,Where are C++ templates inside of the lambda cube?,"programming-languages,type-theory,dependent-types,c++,calculus-of-constructions"
+181,103430,Difference between Response time  Execution time  and CPU time,"computer-architecture,operating-systems,process-scheduling"
+182,103403,Why Cook-Levin thorem&#39;s proof can mean SAT&#39;s NP-Hardness,"complexity-theory,np-complete,np-hard,satisfiability"
+183,103422,Interpretation of Turing&#39;s statement on universal computers,"turing-machines,history"
+184,103417,What is &quot;Phrase structure grammar&quot;?,"formal-languages,automata,regular-languages,formal-grammars,computation-models"
+185,103411,Bounds on &quot;well dispersed&quot; sparse matrices,"graphs,optimization,asymptotics,combinatorics"
+186,103410,DFA that accepts word and its reverse,finite-automata
+187,103409,Why is Min-ones SAT in NP?,complexity-theory
+188,103256,Why is the manifold hypothesis true?,neural-networks
+189,103389,Sufficient conditions for an analysis using a monotone framework to converge,"compilers,lattices,data-flow-analysis,static-analysis"
+190,103360,What is wrong with this reduction from vertex cover to binary programming?,"np-complete,reductions,decision-problem"
+191,103365,Detailed step of Dijkstra&#39;s algorithm performance analysis,"algorithm-analysis,search-algorithms"
+192,103391,How is Johnson&#39;s shortest path weighting function $\hat{w}(u  v) = w(u  v) + h(u) - h(v)$ proven by the triangular inequility?,"shortest-path,weighted-graphs"
+193,103341,Could you show the intractibility of SAT by showing that the number of variables contributing to an arbitrary unsatisfied clause is not constant?,"algorithms,complexity-theory,logic,proof-techniques,satisfiability"
+194,103398,relationship between SAT and Min-ones SAT,"complexity-theory,satisfiability"
+195,103390,Constructing PDA to accept language $\{a^ib^j \mid 0 \leq j \leq 2i\}$,pushdown-automata
+196,103393,Rice&#39;s theorem applicable to the following language?,"complexity-theory,turing-machines,computability,undecidability,rice-theorem"
+197,103395,NFA to DFA with Epsilon transition,"automata,finite-automata"
+198,103294,Is there a relation between the size of the domain/range of a function and its computability?,"turing-machines,computability,recursion"
+199,103333,What are different ways to provide a semantics to a language?,"lambda-calculus,type-theory,functional-programming"
+200,103383,Understanding connection between minimum spanning tree  shortest path  breadth first and depth first traversal,"graphs,shortest-path,minimum-spanning-tree"
+201,103366,Numbering of vertices in RAM model,computation-models
+202,103096,Can the test set of attributes be a subset of the training set&#39;s attributes?,machine-learning
+203,103368,Grover&#39;s Algorithm result when the desired element is not present,"search-algorithms,quantum-computing"
+204,103035,Using LP to prove the max matching - min cover theorem,"linear-programming,bipartite-matching,duality"
+205,103364,Why don&#39;t RDBMS use a quorum based solution to do failover,"distributed-systems,databases,consensus,fault-tolerance"
+206,103335,Egg dropping problem,"algorithms,algorithm-analysis,search-algorithms"
+208,103355,Solve PARTITION-INTO-THREE-SETS in pseudo-polynomial time,"complexity-theory,np-complete,dynamic-programming,partitions,pseudo-polynomial"
+209,103358,multithreading - duration of jobs,"operating-systems,cpu,process-scheduling,threads,multi-tasking"
+210,103264,Algorithm to separate circles to reduce collision the maximum between them,"algorithms,computational-geometry"
+211,103348,How does IEEE 754 decimal encoding work?,floating-point
+212,103331,MST: Is there such an example of a graph with unique mst and not unique light edge?,"graphs,minimum-spanning-tree,prims-algorithm"
+213,103329,Randomized communication complexity of indexing,"reference-request,communication-protocols,communication-complexity,randomized"
+214,103262,Algorithm for units allotment to the customers based on preferences,algorithms
+215,103326,Why does $L\subseteq \textbf{P} \cap \textbf{NP}$ is $\textbf{NP}$-complete imply $\textbf{NP} = \textbf{P}$?,complexity-theory
+216,103298,Matching schedules between users and providers,"scheduling,bipartite-matching,assignment-problem,intervals"
+217,103254,Fixed point of hash,"algorithms,hash,mathematical-analysis,fixed-point"
+218,103292,how can i say a given problem is in co-NP using it&#39;s definition?,"complexity-theory,formal-languages"
+219,103146,What should we return when pattern matching on a Higher Indutive Type and the case is a Path?,"homotopy-type-theory,cubical-type-theory,higher-inductive-types"
+220,103247,What is the Name of the Problem or Technique of Determining if a Line in a Program Will Execute,"computability,terminology,rice-theorem"
+221,103315,Computability of Kolmogorov complexity in total languages,"complexity-theory,programming-languages,turing-completeness,kolmogorov-complexity,descriptive-complexity"
+222,103297,Why are finite automata defined as ordered $n-tuples$ and not as sets?,"automata,finite-automata"
+223,103302,Check if K-Sum Variation is NP-Complete,"complexity-theory,time-complexity,np-complete,subset-sum"
+224,103304,REC and RE under intersection,"formal-languages,turing-machines,computability,undecidability,semi-decidability"
+225,103308,Reason programming language B was named &quot;B&quot;?,"programming-languages,history"
+226,103307,Calculate for each block  the number of bytes that can be assigned to data and to pointers to other blocks,"operating-systems,filesystems"
+227,103300,Language of TM is Undecidable,"turing-machines,undecidability,rice-theorem"
+228,103305,Question about let syntax in type systems,"type-theory,type-checking,type-inference"
+229,103285,Recursive factorial algorithm,"algorithms,algorithm-analysis,recursion"
+230,103261,Why proving the solution of a problem is polynomial time is sufficient enough to say that it is a NP prolbem?,"proof-techniques,np,proof-assistants"
+231,102868,When estimating camera motion from the fundamental matrix  why can translation only be recovered up to scale using epipolar geometry?,computer-vision
+232,103250,Relation between semi decidable  undecidable and countable sets,"computability,terminology"
+233,103249,What is the term for two file formats that describe the same amount of information?,"data-structures,terminology,information-theory,filesystems"
+234,103136,Why a TM with infinite states can decide the halting problem?,"computability,computation-models,halting-problem"
+235,103278,Data Structure which maintains spacing for similar elements,"data-structures,queues"
+236,103255,Worst-case complexity in terms of n?,"algorithm-analysis,time-complexity"
+237,103258,proof of the rice&#39;s theorem,"complexity-theory,computability,regular-languages,rice-theorem"
+238,103267,Computing (near) optimal displacement tables,"data-compression,sparse-matrices"
+239,102955,Algorithm for blending/merging shapes together like liquid,"algorithms,graphics"
+240,103171,An efficient algorithm to find a linear transformation between two ternary quadratic forms,"algorithms,computational-geometry,linear-algebra,polynomials,computer-algebra"
+241,103228,Algorithm to find if there are N 1&#39;s in a matrix where no two 1&#39;s are in same row or column,"algorithms,matrices"
+242,103236,Finding optimal multiplication order and optimal binary tree,"optimization,dynamic-programming,binary-trees,matrices"
+243,103180,lambda expressions  parenthesis  and order of application,lambda-calculus
+244,103237,What is the motivation behind restore model of computation?,"algorithms,computation-models"
+245,103227,Reducible from vertex cover for only some inputs,"complexity-theory,graphs,np"
+246,103241,Threads and Operating System,"operating-systems,threads"
+247,103209,Finding all edges on any shortest path between two nodes using dijkstra,"algorithms,graphs,shortest-path"
+248,103202,Chomsky Classification of Languages,"formal-languages,formal-grammars,chomsky-hierarchy"
+249,103216,How to write recurrence relation for backtracking problem?,"time-complexity,recurrence-relation,divide-and-conquer"
+250,103203,What is this data structure/concept where a plot of points defines a partition to a space,"algorithms,data-structures,terminology,computational-geometry"
+251,103217,Finding related-node clusters,graphs
+252,103229,Quick access to top element of subsets of elements,"data-structures,sorting"
+253,103225,Intuitively  my problem is a mix of perfect hashing  tree spanning  combinatorial stuff - Ordered Decision Tree?,"np-complete,decision-problem,spanning-trees,subset-sum"
+254,103224,If the string of N requests is repeated many times  which of the following is/are true?,"operating-systems,scheduling,paging"
+255,103168,Why does little endian apply to numbers and not to text strings?,"strings,number-formats,binary"
+256,103182,Are managed computer programming languages eco-friendly?,programming-languages
+257,103148,What is the difference between a Top type and a Unit type,type-theory
+258,103220,Correctness proof: induction on sequence of steps  need a stronger claim?,"turing-machines,proof-techniques,computation-models,simulation,induction"
+259,103215,Efficiency of UDP protocol,computer-networks
+260,103201,Why finding out an independent set of size k is in NP-C and not in P?,"np-complete,np-hard,np,decision-problem"
+261,103131,Why $\Theta(n^2)$ multiplication of coefficient required for canonical form of polynomial?,"algorithms,runtime-analysis,normal-forms,polynomials"
+262,103206,Operating system - physical address protection,memory-management
+263,103200,Adaptive radix tree for storing Hash vs HAMT,"data-structures,hash"
+264,103197,Does $FL = FP$ if and only if $L = P$?,"complexity-theory,decision-problem"
+265,103185,Is this context-free grammar correct for this regular expression?,"context-free,formal-grammars,regular-expressions"
+266,103193,use sparse table to optimising queries in suffix array,"algorithms,strings,substrings,suffix-array"
+267,103137,If there is comparison between two variables then language is not regular. Then how the below two languages L1 and L2 Regular? Please Explain,"formal-languages,regular-languages"
+268,103176,Why does packet delivery time only count transmission time once?,computer-networks
+269,103175,Cook-Levin theorem and relativization,relativization
+270,103081,How to understand out of bound in the following theoretical context?,loop-invariants
+271,103134,Prove that there always exists a line bisecting each of two point sets,computational-geometry
+272,103162,Let G be a graph directed without circles. Suggest a method to find a minimum set of vertices So that all the vertices in the graph can be reached,"algorithms,graphs,optimization,dag"
+273,103160,Space complexity for accepting word decision problem of DFAs,"complexity-theory,finite-automata,space-complexity"
+274,103161,How can an arbitrary Turing machine running for $t$ steps be simulated in $O(n \log(n))$ steps?,"complexity-theory,turing-machines,time-complexity,simulation"
+275,103078,Why is it true that given a monotonic heuristic function  A* can be seen as Dijkstra&#39;s algorithm where no node needs to be processed more than once?,"graphs,search-algorithms,shortest-path,correctness-proof"
+276,103127,Round-Robin fashion exercise,"operating-systems,scheduling,process-scheduling"
+277,103144,Complexity of brute force primality test in the number of digits,"algorithm-analysis,runtime-analysis,primes"
+278,103139,Induction on strings (words),"formal-languages,regular-languages,induction"
+279,103147,Find points that lie outside of a series of triangles,computational-geometry
+280,103099,Give a grammar for words whose number of $a$&#39;s modulo 2 is larger than whose number of $b$&#39;s modulo 2,"formal-languages,automata,formal-grammars"
+281,103120,Maximum flow with constraints,"optimization,network-flow"
+282,103132,Is it possible to convert LBA into DFA?,"finite-automata,linear-bounded-automata"
+283,103129,How to create model for a powerful language whose programs are guaranteed to terminate?,"formal-languages,programming-languages,halting-problem,domain-specific-languages"
+284,103108,Why theta(n^2) if m=floor(n/2) for Naive String-matching,"algorithms,algorithm-analysis"
+285,103124,Pseudocode for Userdefined Data Types,"data-structures,pseudocode"
+286,103109,Shortest common supersequence with Genetic Algorithm,genetic-algorithms
+287,103066,T&amp;PL: Language grammar with terms,type-theory
+288,103122,Value iteration in MDP - updating each state once per inner loop?,"algorithms,dynamic-programming,artificial-intelligence"
+289,103119,Minimum vertex cover with minimum overlap of one side,graphs
+290,103117,Minimal shift operations to sort an array,sorting
+291,103044,Complexity of multiplying two integers of size $n$ and $m$,"complexity-theory,time-complexity"
+292,103105,Determine Intersection given only a hyperrectangle and a point-contained-in-shape-Predicate,"algorithms,computational-geometry"
+293,103055,Definition of multiprogramming,"operating-systems,scheduling"
+294,102663,What algorithm is appropriate for a thermostat controlling the heating of a room with floor heating?,algorithms
+295,103083,NP-hardness does not imply lower bound  strictly speaking?,"complexity-theory,reductions,np-hard,complexity-classes"
+296,103090,Effective Procedures and P vs NP Problem,"p-vs-np,formal-methods,mathematical-foundations"
+297,102957,Superposition calculus: Elimination of redundant atoms,"logic,first-order-logic,automated-theorem-proving"
+298,103080,How to generate a grammer from this language?,"formal-languages,automata,formal-grammars"
+299,103069,Expectation for the number of leaf nodes in a randomized tree construction,"algorithms,probability-theory,randomized-algorithms"
+300,103076,Stop and Wait Efficiency,computer-networks
+301,103072,What Are the Ideas Behind Variations of the Coin Change Problem?,"algorithms,dynamic-programming,coin-change"
+302,103001,Does undecidability violate Turing completeness? Shouldn&#39;t &quot;complete&quot; include &quot;decidability&quot;?,"turing-machines,undecidability,semi-decidability,turing-completeness"
+303,103073,Is it possible that $L=NP$?,complexity-theory
+304,103043,Which word could I use for the pumping lemma?,"regular-languages,pumping-lemma,proof-assistants"
+305,103012,Terminology for worst-case N-complexity on $O(1)$ insert after amortisation,"terminology,asymptotics,notation"
+306,103070,Algorithm for Team Meetings scheduling optimization,"algorithms,scheduling"
+307,103067,What is the practical limit to how many object classes you can detect with Faster RCNN?,"machine-learning,neural-networks,computer-vision"
+308,103065,Convert Subdivision Curve to Bezier Curve,"graphics,digital-curve"
+310,103059,What is the state of the algorithmic art for floating point arithmetic on complex numbers?,"reference-request,floating-point,numerical-algorithms,error-estimation"
+311,103026,Can you connect an output from a logic gate to 2 or more logic gates or inputs?,logic
+312,103018,How can you find all unbalanced parens in a string in linear time with constant memory?,algorithms
+313,103041,Complexity of generating non-uniform random variates,"time-complexity,sampling,random-number-generator"
+314,103011,Induction to prove equivalence of a recursive and iterative algorithm for Towers of Hanoi,"algorithm-analysis,recurrence-relation,recursion,induction"
+315,103037,How do I show that an iterative solution to Tower of Hanoi performs the same exact steps as a recursive solution?,"algorithms,recurrence-relation,induction"
+316,103013,How to prove a language is not regular using the Pumping Lemma?,"formal-languages,regular-languages,pumping-lemma"
+317,103030,Is there any implementation of AO* algorithm?,"algorithms,graphs"
+318,103027,interrupts in operating system,"operating-systems,cpu,os-kernel"
+319,103023,Shortest path in graph by flipping binary colored nodes to one color,"shortest-path,graph-traversal,colorings"
+320,103015,How to calculate a direct mapped chace capacity with tag and valid bits?,"computer-architecture,cpu-cache"
+321,103010,Complexity of STRIPS planning for finding optimal solution: PSPACE-complete or NP-complete?,"complexity-theory,planning"
+322,102997,Binary Floating Point Range/Precision for 4-bit Mantissa and 4-bit Exponent,"floating-point,binary"
+323,102758,Lambda term satisfying two equations using Bohm Trees,lambda-calculus
+324,102821,Intersection of two incomplete DFAs,"automata,finite-automata"
+325,102613,Optimal dividing of K people into N groups,"algorithms,graphs"
+326,102996,Decidablity of time complexity,"complexity-theory,computability"
+327,102990,Is the complexity of this algorithm O($\sqrt{n}$) or linear?,algorithms
+328,102705,PRNG for a gaussian distribution?,"randomness,pseudo-random-generators"
+329,102986,Ambiguous grammar to equivalent unambiguous grammar,"automata,formal-grammars"
+330,102964,Are Big-Theta functions asymptotic monotonically non decreasing?,"time-complexity,asymptotics"
+331,102984,Why irreducibility is an important concept in Flow Graphs?,"graphs,compilers,software-engineering"
+332,102983,Find pattern in string of unkown language,"natural-language-processing,pattern-recognition"
+333,102978,transformation between two formulations of the mincost flow problem,network-flow
+334,102959,Is $f(cn)$ always $O(f(n))$ for constant $c$ and any function $f$?,"complexity-theory,asymptotics,mathematical-analysis"
+335,102968,What is the fastest algorithm to establish whether a linear system in $\mathbb{R}$ has a solution?,"algorithms,complexity-theory,linear-algebra"
+336,102972,Simplifying SOP: implementing OR with NAND,"logic,circuits,boolean-algebra,digital-circuits,computer-algebra"
+337,102967,jump to MMIO address,"computer-architecture,cpu,memory-hardware,virtual-memory,memory-access"
+338,102969,ARM STM instruction: page fault problem with MMIO,"computer-architecture,operating-systems,cpu,memory-hardware,virtual-memory"
+339,102837,Equivalence between different Turing Machines and a definition of simulation,"turing-machines,computation-models,simulation"
+340,102920,Reasoning about resources: &quot;resource logics&quot;?,"logic,temporal-logic,resource-allocation"
+341,102851,d-ary heap implementation vs Fibonacci heap implementation Dijkstra performance comparions,"asymptotics,heaps,performance,comparison"
+342,102948,Who first introduced the pushdown automaton?,"pushdown-automata,history"
+343,102946,Solving $T(n) = 3T(n-1) + 2$,recurrence-relation
+345,102901,How does the free program identifiers (fpi) extend over constraints and type schemes in $HM(X)$?,"type-checking,type-inference"
+346,102938,Error detection in sequence of integers,algorithms
+347,102939,Max flow and Matching problem,"reductions,np-hard,approximation"
+348,102919,Reducing a graph without changing its chromatic number,"graphs,colorings"
+349,102924,Choosing heuristic for A* algorithm where cost is less than absolute distance,"algorithms,artificial-intelligence,heuristics"
+350,102907,Constructing a pushdown automaton that accepts L*,"automata,pushdown-automata"
+351,102929,Bucket computation  cutting array with lines,"algorithms,computational-geometry"
+352,102906,Either find a perfect matching  or return a witness that none exist,"graphs,matching,bipartite-matching"
+353,102922,System restarted before transaction is committed,"concurrency,database-theory"
+354,102925,Understanding Dynamic Frequency Warping (not Dynamic Time Warping),"algorithms,signal-processing"
+355,102875,Normal form after decomposition of a relation,"database-theory,normal-forms,relational-calculus,functional-dependencies"
+356,102284,Reducing linear programming to positive linear programming,linear-programming
+357,102923,Implementation of Babai&#39;s GI algorithm,graph-isomorphism
+358,102557,Which of the following statements are true for the given special cases of the Traveling Salesman Problem?,"algorithms,complexity-theory,np-complete,reductions,traveling-salesman"
+359,102788,Matrix Representation for logical gates?,"discrete-mathematics,matrices,propositional-logic"
+360,102853,Transforming a byte with a subset of a small  fixed set of values and xor into any other value,"linear-algebra,group-theory"
+361,102863,How to perform local search to find maximal induced subgraphs?,"graphs,graph-traversal,heuristics"
+362,102914,Relevance of the ZeroSum game to Heuristic search?,"artificial-intelligence,heuristics"
+363,102892,Instructing operating system - Knowing it&#39;s functionalities,operating-systems
+364,102778,Computer Networks  OSI model,"computer-architecture,shortest-path"
+366,102899,is $0^x1^y$ context-free?,"automata,regular-languages,context-free"
+367,102866,Applying minimax tree to this array,"algorithms,arrays"
+368,102894,Can all Turing-computable problems be solved with a machine with finite tape and infinite controls?,computation-models
+369,102888,In a Min-Cut problem  how many times do i need to run Karger&#39;s Algorithm in a given set of nodes?,algorithms
+370,102886,Difference between stable marriage problem and assignment problem,assignment-problem
+371,102832,RAM BSS model based (or its variant) computer recognizing Boolean languages,"complexity-theory,formal-languages,turing-machines"
+373,102870,Computer Networks  bandwidth calculation,computer-networks
+374,102848,What&#39;s the difference between cache miss penalty and latency to memory?,cpu-cache
+375,102862,fixing a slightly broken BST tree,binary-search-trees
+376,102806,Proccess scheduling arrival time,"scheduling,process-scheduling"
+377,102855,Confusion about proof of undecidability of REGULAR TM in Sipser&#39;s book,"turing-machines,reductions,undecidability"
+378,102829,When is this even possible (even for a dense graphs) $|E| = \Theta (|V|^2)$,"graphs,asymptotics"
+379,102835,How to find the angle of an arc to draw graphic,"algorithms,computational-geometry,graphics"
+380,102789,Ketama hash explanation,hashing
+381,102753,Why 2 different edge min-cuts in an undirected multigraph must be completely disjoint?,"graphs,combinatorics,probabilistic-algorithms,minimum-cuts"
+382,102490,find all paths from source to destinations and then calculate the path with minimum cost,"algorithms,graphs"
+383,102819,Convert NURBS curve into Cubic Bezier Curve,"algorithms,computational-geometry,graphics,topology,digital-curve"
+384,102825,Is there an existing algorithm for this type of sorting?,"algorithms,sorting"
+385,102828,Why is a heap better than a linked list for implementation of a priority queue?,"complexity-theory,time-complexity,runtime-analysis,heaps,priority-queues"
+386,102804,What is the compressibility of this simple &quot;book&quot;?,"information-theory,entropy"
+387,102824,Order of Traversal in Bidirectional Dataflow Analysis,"compilers,graph-traversal,program-optimization,data-flow-analysis"
+388,102801,Why is $\{a^nb^n \mid n \geq 1\}$ not type 3 (regular)?,"formal-languages,regular-languages"
+389,102822,The underlying type theory of HOL/Isabelle,"reference-request,type-theory,proof-assistants"
+390,102777,Doubt regarding foreign key and referential integrity,"database-theory,databases,relational-algebra"
+391,102817,Computational type theorists: how do you compare terms for equality here?,"lambda-calculus,type-theory,software-engineering,proof-assistants"
+392,102816,Minimum spanning tree classification problem with adjacent neighbors,minimum-spanning-tree
+393,102810,What is the complement of a language?,computability
+394,102800,Is the language $L$ of coded CFG&#39;s Turing decidable?,"turing-machines,computability,context-free,reductions,computation-models"
+395,102797,What is the ideal complexity of a task with (n-1)!/2^(n-1) possible threes?,"algorithms,time-complexity"
+396,102798,Run time analysis of inner loop,"asymptotics,loops"
+397,102732,Beta reduction order in Lambda calulus,"lambda-calculus,functional-programming"
+398,102771,Bachmair and Ganzinger  ordering of equations,"logic,first-order-logic,automated-theorem-proving"
+399,102744,Karp hardness of two vertex sets in a digraph,"graphs,np-complete,np-hard,np"
+400,102687,N subsets with a given sum?,"sets,subset-sum"
+401,102730,Recognizer for decidable language and words it doesn&#39;t halt on,"turing-machines,computability,undecidability,halting-problem"
+402,102791,Finding disjoint paths between any number of cell pair marked in nXn matrix,"algorithms,graphs,matrices"
+403,102773,Proof of the master thorem case with floors and b = 2,"algorithm-analysis,master-theorem"
+404,102783,How to generate evenly distributed random numbers from the tics of a Geiger Counter?,"mathematical-programming,random-number-generator"
+405,102724,How can I efficiently find the largest positive interval in an unsorted array?,"algorithms,subsequences"
+406,102712,What&#39;s the right way to think about a CFG symbol with an infinite null derivation?,"context-free,formal-grammars"
+407,102782,Finding all possible exclusive cliques in a graph,"algorithms,graphs"
+408,102780,How does the equation for min heap array indexing work?,heaps
+409,102678,Show that if the transitive closure can be computed in T(|V |) time then BMM can be solved in O(T(3n)) time,"algorithms,graphs"
+410,102689,Multiple Knapsack Problem  but with exact weight/capacity? (All knapsacks have to be filled completely),knapsack-problems
+411,102514,Can I compute closest split pair of points where distance is strictly less than delta,"algorithms,computational-geometry"
+412,102775,Does Quadratically-Constrainted Quadratic Programming get easier if all constraints are equalities?,"optimization,constraint-programming,quadratic-programming"
+413,102709,Word-hyphenation algorithm for monospaced fonts,algorithms
+414,102761,Why it is not a Huffman code,"information-theory,entropy,huffman-coding"
+415,102647,Do lossless compression algorithms reduce entropy?,"information-theory,data-compression,entropy"
+416,102762,Data read vs instruction fetch,computer-architecture
+417,102740,Why do I get different results from two calculation methods?,"floating-point,numerical-analysis"
+418,102760,Where can I find the algorithm in pseudocode for deleting a key from a B-Tree?,"algorithms,pseudocode,b-tree"
+419,102752,Multi-variate complexity semplification,"complexity-theory,time-complexity"
+420,102754,What are some differences between regex (FSM) in computer science with regex in programming?,"formal-languages,finite-automata,regular-expressions"
+421,102742,Which is better ? Iterations or Recursions?,"algorithms,optimization,recursion,iteration"
+422,102623,Are the capabilities of programming languages the same?,"computability,programming-languages"
+423,102746,Associative cache finding the tag and word number,caching
+424,102515,In the FLP Impossibility paper  why did the authors claim that e is applicable to every E in proof of lemma 3?,"algorithms,distributed-systems,consensus"
+425,102745,Understanding acknowledgement mechanism in sliding window protocol,computer-networks
+426,102706,Find value of $a$ or $b$ of two XOR equations,"logic,arithmetic,xor"
+427,102697,Performance of smooting vs viterbi algorithm with HMMs,hidden-markov-models
+428,102688,Confused about the correctness proof of Dijkstra&#39;s algorithm,"algorithms,graphs,shortest-path,correctness-proof"
+429,102486,Find a partition of multiset of binomial coefficients with constriants,"combinatorics,sets,subset-sum"
+430,102728,How to sort a woven shuffled stack,"algorithms,graphs,data-structures,sorting"
+431,102722,How to identify the final set of &quot;contours&quot; when combining multiple primitive contours,"algorithms,graphs,data-structures"
+432,102720,How to transform a Infinite decimal of $\frac{23}{6}$ into binary?,binary
+433,102555,Typing rule for binding groups,"type-theory,type-inference,typing,haskell"
+434,102714,Structure of numbers in descriptive complexity,"integers,descriptive-complexity"
+435,102700,If you have a smallest grammar approximation  do you immediately have a CFG inference algorithm?,"algorithms,formal-languages,optimization,context-free,formal-grammars"
+436,102682,Is there a name for this type of Turing machine?,turing-machines
+437,102668,How does quicksort with 3-way partitioning ~ $(2 ln 2) NH$ become linear time complexity with many duplicated keys?,"complexity-theory,time-complexity"
+438,102673,&quot;Mathematical Physics&quot;&#39;s equivalent for Computer Science,mathematical-foundations
+439,102674,Johnson-Lindenstrauss and k-means,"algorithms,approximation,euclidean-distance"
+440,102655,Shortest Uncommon Subsequence,"algorithms,recursion,strings,subsequences"
+441,102667,Solving recurrence relations with two variables,recurrence-relation
+442,102681,Which address bits are used for set selection/tag check in a cache?,computer-architecture
+443,102686,N-Queens problem - maximum number of function calls,"algorithms,time-complexity,backtracking"
+444,102650,Solve recurrence T(n)=2T(n-1)+n for n greater than 1 and T(1)=1,recurrence-relation
+445,102671,Complementary of graph invariant,"graphs,terminology,graph-isomorphism"
+446,102677,Finding the &#39;capacity&#39; of a network by treating it as a channel,information-theory
+447,102670,How much of the x86 instruction set does blender use?,"algorithm-analysis,parallel-computing,graphics,mathematical-programming,software-engineering"
+448,102660,Is the set of surjective recursive functions in RE/coRE?,computability
+449,102632,what does this phrase mean: &quot;train a policy network&quot;,"machine-learning,learning-theory"
+450,102612,Why researchers don&#39;t study the parameterizations of the problems unlikely to be NP-Hard?,complexity-theory
+451,102597,Buchi automata in formal software verification,"formal-languages,formal-grammars,formal-methods,model-checking,buchi-automata"
+452,102635,How to construct Context Free Grammar of words with equal number of 0&#39;s and 1&#39;s,"formal-languages,context-free,formal-grammars"
+453,102646,what can cause the best-bound to get tighter in the first MIP node?,"optimization,integer-programming,branch-and-bound"
+454,102634,Cover the maximum of elements,algorithms
+455,102641,What are the things one can do with the internet without the World Wide Web?,computer-networks
+456,102624,Increased rounding relative error when subtracting,"arithmetic,floating-point,rounding"
+457,102627,Data hazard after in load word after addi,"computer-architecture,mips"
+458,102363,How many pairs of brackets are sufficient to make Brainfuck Turing complete?,turing-completeness
+459,102620,Curiosity on system device nomenclature - Gaussian Mixture Models,"terminology,computer-architecture"
+460,102466,What important/crucial real-world applications use blockchain?,blockchain
+461,102614,Is MCTS an appropriate method for this problem size (large action/state space)?,"dynamic-programming,artificial-intelligence,reinforcement-learning,monte-carlo"
+462,102618,DSU algorithm optimization,"algorithms,union-find"
+463,102616,How strong is a FSM with long enough(but not infinite) tape?,computability
+464,102604,Drawbacks of adding type equality to 1ML,"type-theory,type-checking,type-inference"
+465,102602,Kiln optimization problem,"algorithms,optimization"
+466,102606,Why is the objective in a multi-armed bandit problems to minimize (cumulative) regret?,reinforcement-learning
+467,102603,Associative cache finding the tag and word number,"computer-architecture,cpu-cache,memory-access"
+468,102600,Testing for a symmetric property $P$,"algorithms,testing"
+469,102599,How to accomodate decision trees with infinite options,"data-structures,search-algorithms,search-problem"
+470,102580,Proof of a lower bound of the recurrence relation (the CLRS&#39;s 4.6-2 exercise),"algorithm-analysis,recurrence-relation"
+471,102558,Which of the following problems can be reduced to the Hamiltonian path problem?,"algorithms,complexity-theory,graphs,np-complete,hamiltonian-path"
+472,102394,How to select a loop nesting trees for irreducible loops?,"algorithms,graphs,compilers"
+473,102520,When searching graphs breadth-first and depth-first color the graph. Who un-colors the graph when the search is completed?,"graphs,graph-traversal"
+474,102556,HyperLogLog leading zeros distribution,"probability-theory,probabilistic-algorithms"
+475,102591,Finding if a given problem is a Np-Hard problem - recruitment problem,"reductions,np-hard"
+476,102585,Is every subset of a RE language also RE  in general?,"formal-languages,formal-grammars,chomsky-hierarchy"
+477,102565,Can a Formal Language be of a type (RE  REC  Regular  etc) for one TM  but of a different type for another?,"formal-languages,turing-machines,finite-automata,formal-grammars,chomsky-hierarchy"
+478,102529,How do I construct a NTM that accepts the language consisting of the coding of turing machines that halt on one input?,"turing-machines,nondeterminism,semi-decidability"
+479,102574,Max Weight Path in a Graph,"algorithms,graphs"
+480,102550,The role of depth of a circuit in its hardware implementation,circuits
+481,102564,Set Difference of Two RE Languages - An Intuitive Idea of Why It&#39;s Not Closed,"formal-languages,turing-machines,formal-grammars"
+482,102567,Get grammar from his LALR(1) parsing table,"context-free,parsers"
+483,102533,Distance Vector Routing Example,routing
+484,102452,How long does it take to crack a password by brute force,security
+485,102485,Is OS mode required for accessing general purpose registers,"computer-architecture,operating-systems,os-kernel,critical-section"
+486,102532,Algorithm for Items Best Fit/Arangement in a Box,algorithms
+487,102551,Clarification on descending direction in optimization of function,"optimization,matrices,gradient-descent"
+488,102433,How do I count the exact number of executed commands for a MIPS program?,"algorithms,computer-architecture,programming-languages"
+489,102518,Is Rice-Shapiro theorem bidirectional?,"computability,semi-decidability"
+490,102547,Can the Chinese Postman Problem be solved with the Traveling Salesman Problem?,"algorithms,graphs"
+491,102423,Model Checking CTL* algorithm,model-checking
+492,102535,is reducing to normal form simply applying beta-reduction?,lambda-calculus
+493,102463,Looking for an algorithm to identify contiguous repeated series of lines in a long string,algorithms
+494,102448,Why do mainstream speech models no longer require a personalized training step?,"algorithms,machine-learning,speech-recognition"
+495,102505,Can Dynamic programming be applied to solve problems if and only if the subproblem form a DAG?,"dynamic-programming,dag"
+496,102537,Expectation of $\langle s x \rangle^2$,"probability-theory,randomized-algorithms"
+497,102538,Tennis Tournament Divide and Conquer for arbitrary number of players,"algorithms,divide-and-conquer"
+498,102534,Mathematical resource material accompanying TAPL,"computability,programming-languages,type-theory,mathematical-foundations"
+499,102527,Binary tree for 2 elements,"algorithms,binary-trees"
