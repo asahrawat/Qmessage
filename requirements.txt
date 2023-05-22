@@ -4,7 +4,7 @@ html2text==2019.8.11
 numpy==1.16.5
 ordered-set==3.1.1
 pandas==0.24.2
-requests==2.22.0
+requests==2.31.0
 scikit-learn==0.20.4
 scipy==1.2.2
 sklearn==0.0 
